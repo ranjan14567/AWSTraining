@@ -1,0 +1,43 @@
+Virtual Private Cloud
+----------------------
+•	A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. 
+•	It is logically isolated from other virtual networks in the AWS Cloud. You can launch your AWS resources, such as Amazon EC2 instances, into your VPC. 
+•	There are no additional charges for creating and using an Amazon Virtual Private Cloud (VPC) itself.
+•	Easy to use and setup: With the help of the AWS Management Console, one can easily and quickly set up AWS VPC. 
+•	It also helps you to focus only on creating the application as the process such as Subnets, IP ranges, route tables, and security groups are automatically created.
+•	Security: To enable inbound and outbound filtering at the instance level and subnet level VPC provides advanced security features. 
+•	Scalability and Reliability: AWS VPC provides a facility of instant scalability so that you can instantly scale your resources up or down, and select Amazon EC2 instance types and sizes that are right for your applications. 
+•	It also helps to save the extra cost as there are no upfront costs.
+•	VPC allows the user to select IP address ranges, create subnets, and configure route tables, network gateways, and security settings.
+•	VPC allows VPC Peering connections with other VPC within the same or different AWS accounts.
+•	It provides a feature of security such that the data stored in Amazon S3 can only be accessed from within your Amazon VPC.
+•	We can resize the VPC.
+•	Max VPC is 5 Per Region. We can increase this limit so that you can have 100s of VPCs per Region.
+•	We can create 200 Subnets in one VPC & 1000 Subnets in one region
+•	VPC needs a set of IP addresses in the form of a Classless Inter-Domain Routing (CIDR) block. 
+		For example: the CIDR 172.16.0.0/16 includes all addresses from 172.16.0.0 to 172.16.255.255 — a total of 65,536 addresses. 16 is the netmask.
+•	As IPV4 is 32 bit so /16 means , 32-16=16 and so 2^16= 65,536 IP addresses
+•	Similarly for /28 means, 32-28= 4 and so 2^4=16 IP addresses.
+•	Block sizes must be between a /16 netmask and /28 netmask.
+•	Minimum Size is /28 (16 IP Address)
+•	Maximum Size is /16 (65536 IP Address)
+
+•	To More about 
+      IP Address CIDR: https://www.ipaddressguide.com/cidr
+•	VPC Quotas: 
+      https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html
+
+Create VPC
+**********
+•	Search VPC
+
+•	Click on Create VPC
+
+•	Enter the Name of the VPC
+
+•	Enter IPV4 CIDR
+
+•	Select tenancy as default.
+
+•	Click on Create VPC
+
