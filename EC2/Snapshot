@@ -1,0 +1,18 @@
+Snapshot
+---------
+•	Amazon EBS Snapshots provide a simple and secure data protection solution that is designed to protect your block storage data such as EBS volumes, root volumes. 
+•	EBS Snapshots are a point in time copy of your data, and can be used to enable disaster recovery, migrate data across regions and accounts, and improve backup compliance. 
+   It is stored in Amazon S3.
+•	With the help of Snapshots we can move of disc from one region to another region.
+•	Create EC2 Machine in Mumbai Region
+•	Add EBS Volume
+•	Launch the Instance
+•	Check Volumes
+•	Create Snapshot
+•	Select the Volume
+•	Enter the name of the snapshot
+•	Add the Tag
+•	Click on Create Snapshot
+
+
+
