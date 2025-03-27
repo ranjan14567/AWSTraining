@@ -1,0 +1,60 @@
+Multi-Factor Authentication
+---------------------------
+Multi-Factor Authentication - MFA
+•	AWS Multi-Factor Authentication (MFA) is a simple best practice that adds an extra layer of protection on top of our user’s name and password.
+•	We can enable MFA for our AWS account (Root Account) and individual IAM users we have created under our account.
+•	Virtual MFA Devices: Applications for your smartphone can be installed from the application store that is specific to your phone type. The following lists some applications for different smartphone types.
+
+•	Google Authenticator
+•	Authy App
+•	Duo Mobile
+•	LastPass Authenticator
+•	Microsoft Authenticator
+•	Authenticator app
+•	Security Key
+•	Hardware TOTP token
+
+MFA Root Uaer:
+--------------
+•	Download the mobile App (Authy)
+•	Go to Security Credentials
+•	Go to Multi Factor Authentication
+•	Click on Activate MFA
+•	Select the Device (Virtual MFA Device)
+•	Click on Continue
+•	Click on Show QR Code
+•	Click on plus button in mobile App
+•	Enter Backup Password in mobile App
+•	Click on Scan code from mobile App
+•	Click on Enable Password in mobile App
+•	Click on Save
+•	System will generate the Code in mobile App
+•	Enter the code in AWS
+•	After few Seconds new password will generate in mobile App
+•	Enter the Second Code
+•	Click on Assign MFA
+•	Now try to Login with AWS Account
+
+MFA – IAM User
+---------------
+•	Create IAM User
+•	Click on username
+•	Go to Security Credentials
+•	Click on Manage for MFA Device
+•	Select the Type & Click on Continue
+•	Click on Show QR Code
+•	Click on Add Account in mobile App
+•	Scan QR Code from mobile App
+•	Save on save in mobile APP
+•	Password will generate in mobile App
+•	Click on Assign MFA
+•	Check our IAM User
+•	Try to login IAM user
+
+
+
+
+
+
+
+
