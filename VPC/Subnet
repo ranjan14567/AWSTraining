@@ -1,0 +1,42 @@
+Subnet
+-------
+•	A subnet is a segment of an Amazon VPC’s IP address range where you can launch Amazon EC2 instances, Amazon Relational Database Service (Amazon RDS) databases, 
+  and other AWS resources. 
+•	We can add one or more subnets in each Availability Zone.
+•	AWS Reserve 5 IP Addresses (First 4 & Last 1) in each subnet
+•	These 5 IP Addresses are not available for use and can’t be assigned to an EC2 Instance. 
+•	For example, if your VPC has a CIDR of 192.168.0.0/16, one of your subnets may have a CIDR of 192.168.100.0/24. 
+•	This range covers 192.168.100.0– 192.168.100.255, which yields a total of 256 addresses.
+1)	First four addresses: 192.168.100.0 –192.168.100.3 & Last IP
+i.	Address: 192.168.100.255
+2)	192.168.100.0: Network address
+3)	192.168.100.1: Reserved by AWS for the VPC router.
+4)	192.168.100.2: Reserved by AWS for mapping to AWS-provided DNS.
+5)	192.168.100.3: For Future Use
+6)	192.168.100.255: Network broadcast address. We do not support broadcast in a VPC, therefore we reserve this address.
+
+Subnet Types
+************
+•	Private Subnet
+•	Public Subnet
+
+•	Private Subnet: Instances in the private subnet are back-end servers that don't need to accept incoming traffic from the internet and therefore do not 
+  have public IP addresses. By default every subnet is the private subnet. For Example Database server
+
+•	Public Subnet: A public subnet is a subnet that's associated with a route table that has a route to an internet gateway. For Example Webserver
+
+Create Subnet
+-------------
+•	Click on subnets
+•	We can see all the default subnets
+•	Click on Create Subnet
+•	Select the VPC in which we want to create the subnet
+•	Enter subnet name, Select availability zone & Enter IPV4 CIDR Block.
+•	Click on Create subnet
+•	Create One More Subnet
+•	Select the subnet : Action --> Edit Subnet Settings
+•	Check the Enable auto-assign public IPV4 address
+•	Click on save.
+
+
+
