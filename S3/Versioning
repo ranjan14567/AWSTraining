@@ -1,0 +1,63 @@
+Versioning
+-----------
+•	Versioning in Amazon S3 is a means of keeping multiple variants of an object in the same bucket. 
+•	We can use the S3 Versioning feature to preserve, retrieve, and restore every version of every object stored in our buckets. 
+•	It is enabled at the bucket level. 
+•	Versioning-enabled buckets can help you recover objects from accidental deletion or overwrite.
+
+Advantages of Versioning:
+•	We can recover deleted objects.
+•	We can maintain different versions of the file
+
+Create bucket
+-------------
+•	Create bucket
+•	Select ACLs Enabled
+•	Don’t give access to public
+•	Click on Create bucket
+•	Upload the Object
+•	Don’t give any permission
+•	Paste the Object URL in Browser
+•	Give Public Access to Bucket
+•	Open our bucket
+•	Go to the Permissions tab
+•	Click on Edit to block public access
+•	Uncheck the Block all Public Access
+•	Click on Save changes
+•	Enter confirm & Click on Confirm
+•	Now open the File
+•	Go to Permission tab.
+•	Click on edit
+•	Check the read check box for public
+•	Check the authentication
+•	Click on save changes
+•	Check the object URL
+•	Open our Bucket
+•	Go to the properties tab
+•	Click on Edit for bucket Versioning
+•	Select enable
+•	Click on save changes
+•	Open our bucket
+•	Click on show versions
+•	Delete the file
+•	Select the file & Click on Delete
+•	Enter delete
+•	Click on delete objects
+•	Click on show versions
+•	Select delete marker file & Click on delete
+•	Enter permanently delete
+•	Click on Delete objects
+•	Add more lines to our existing file
+•	Open the bucket & Upload the new file
+•	Go to Permissions
+•	Give Public Access
+•	Click on upload
+•	Click on show versions
+•	Recover Old Version File
+
+•	Select the old version file
+
+•	Click on download
+
+•	The system will download the file & if we want then we can upload the file again.
+
