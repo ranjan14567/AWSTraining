@@ -1,0 +1,85 @@
+EC2 - Linux
+-----------
+EC2 - Introduction
+•	EC2 stands for Amazon Elastic Compute Cloud. 
+•	It is a web service that provides secure, scalable computing capacity in the cloud. 
+•	It is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure.
+•	Amazon EC2 currently supports a variety of operating systems including: Amazon Linux, Ubuntu, Windows Server, Red Hat Enterprise Linux, Fedora, Debian, CentOS, 
+  Oracle Linux, FreeBSD, and Mac OS
+
+EC2 – Linux
+•	Select EC2 Service
+
+•	Click on Launch Instances
+
+•	Enter the Name
+
+•	Choose Amazon Machine Image (AMI) (Amazon Linux)
+
+•	Choose an Instance Type (t2.micro)
+
+•	Click on Create New Key Pair
+
+•	Enter the name
+
+EC2 – Linux
+•	Select the Key pair type as RSA
+
+•	Select Private Key file format as .pem
+
+•	Click on Create key pair
+
+•	Enable SSH Port
+
+•	Select Configure storage
+
+•	Click on launch Instances
+ 
+
+EC2 – Linux
+•	Download Putty & Puttygen
+•	Generate PPK File Using Puttygen
+•	Select the EC2 Machine & Click on connect
+•	Go to SSH Client
+ 
+
+EC2 – Linux
+•	Note down the host name
+
+•	Open putty
+
+•	Enter the Host name
+
+•	Attach PPK File with Putty
+
+•	Click on open
+
+•	Click on Accept
+ 
+
+EC2 – Linux (EC2 Instance Connect)
+•	Select the EC2 Machine & Click on connect
+
+•	Go to EC2 Instance Connect
+
+•	Note down the Public IPV4 Address
+
+•	Open Putty Enter IP Address
+
+•	Attach PPK File File
+
+•	Click on open
+
+•	Enter User name (ec2-user)
+ 
+
+Terminate/ Stop the Instance
+•	Select the Instance
+•	Click on Stop/ Terminate
+
+EC2
+•	Security Group: A security group acts as a virtual firewall for your EC2 instances to control incoming and outgoing traffic. 
+•	Inbound rules control the incoming traffic to your instance, and outbound rules control the outgoing traffic from your instance.
+•	Key Pair: A key pair, consisting of a public key and a private key, is a set of security credentials that you use to prove your identity when connecting to an 
+  Amazon EC2 instance.
+
