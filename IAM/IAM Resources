@@ -1,0 +1,23 @@
+IAM Resources
+*************
+1. Users:
+An IAM user is an identity with long-term credentials that is used to interact with AWS in an account.
+
+2. Group:
+A user group is a collection of IAM users.
+
+Use groups to specify permissions for a collection of users.
+
+3. Roles:
+An IAM role is an identity you can create that has specific permissions with credentials that are valid for short durations.
+
+Roles can be assumed by entities that you trust.
+
+4. Policies:
+A policy is an object in AWS that defines permissions.
+
+5. Identity providers:
+Use an identity provider (Idp) to manage your user identities outside of AWS, but grant the user identities permissions to use AWS resources in your account.
+
+6. Account settings:
+Password policy - configure the password requirements for the IAM users.
