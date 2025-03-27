@@ -1,0 +1,24 @@
+On-Demand Instances:
+-------------------------------
+Instances that you pay for as and when you need. 
+pay-as-you-go” instances, which you can be charged for either by the hour or by the second.
+Buy as much cloud computing capacity as you need, whenever you need it, with no long-term commitment.
+When you don’t need it anymore, you withdraw your workloads and cancel the instances, increasing or decreasing your cloud capacity as your computing needs change.
+
+Reserved Instances:
+---------------------------
+Reserved Instances are configured almost exactly like On-Demand Instances.
+when you need, you “reserve” instances for either one year or three years. 
+Reserved Instances offer pretty significant discounts compared to On-Demand instances.
+There are two types of Reserved Instances:  
+Standard Reserved Instances, you can only use instances from within one instance family, on the same operating system.
+Convertible Reserved Instances, you can use instances from different families and on different operating systems. 
+Convertible Reserved Instances give you a lot more flexibility but they’re also slightly more expensive than Standard Reserved Instances.
+
+Spot Instances:
+--------------------
+Cloud providers need to keep some space capacity available, in case there’s a huge surge in demand from customers — but for much of the time, that spare capacity just sits unused.  
+When you buy a Spot Instance, you’re essentially borrowing excess capacity from your cloud provider for a certain period. “Borrowing” is the operative word here. 
+If demand goes up and your cloud provider needs that extra capacity, they’ll take it back — often with less than a minute’s notice before your workloads disappear.
+
+REF: https://www.incredibuild.com/blog/whats-the-difference-between-on-demand-reserved-and-spot-instances
