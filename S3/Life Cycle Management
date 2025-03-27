@@ -1,0 +1,23 @@
+Life Cycle Management
+---------------------
+•	It is a way of efficiently managing the objects so that the cost is minimized throughout the lifecycle of the object inside the instance. 1000 lifecycle rules can be configured per bucket
+•	There are two types of actions:
+•	Transition actions: in which the storage class for the objects changes
+•	Expiration actions: where the objects expire and are permanently deleted
+
+•	Create Bucket
+•	Select ACLs Enabled
+•	Give Public Access
+•	Upload the object
+•	Give the Public Access
+•	Open bucket
+•	Go to the Management tab
+•	Click on Create lifecycle rule
+•	Enter the Name
+•	Select this rule applies to all objects in the bucket
+•	Acknowledge the rule
+•	Select the rules as per our client's requirements
+•	Select storage classes
+•	Select the class & enter the days
+•	Check the timeline summary
+•	Click on create rule
