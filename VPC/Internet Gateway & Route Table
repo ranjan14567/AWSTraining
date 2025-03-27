@@ -1,0 +1,75 @@
+Internet Gateway & Route Table
+------------------------------
+•	Component that allows communication between our VPC and the internet
+
+•	Click on Internet Gateway
+•	Click on Create Internet gateway
+•	Enter the name of the Internet gateway
+•	Click on Create Internet gateway
+•	Attach internet gateway to our VPC
+•	Select our internet gateway : Actions ---> Attach to VPC
+•	Select our VPC
+•	Click on Attach internet gateway
+•	We need to attach our internet gateway to our Public Subnet. 
+•	But we can’t attach an internet gateway directly to the public subnet.
+
+Route Table
+************
+•	Route table defines rules, termed as routes, which determine where network traffic from the subnet would be routed.
+
+•	Click on Route table
+•	Click on Create route table.
+•	Enter the Name
+•	Select the VPC
+•	Click on Create route table
+•	Attach Route Table with subnet
+•	Select our route table: Actions ---> Edit Subnet Associations
+•	Select the public subnet
+•	Click on save Associations
+•	Attach Route table with Internet gateway
+•	While attaching the route table with internet gateway we need to provide two elements
+
+•	Destination
+•	Target
+
+•	Select the route table: Actions ---> Edit Routes
+•	Click on Add route
+•	Select target as our Internet gateway
+•	Enter Destination (0.0.0.0/0)
+•	Click on save changes
+
+EC2 – Public Subnet
+-------------------
+•	Create Linux EC2 Machine in Pubic Subnet
+•	Change network, Subnet & Auto Assign Public IP
+•	Bootstrap Script Code: 
+
+					#!/bin/bash
+					sudo su
+					yum update -y
+					yum install httpd -y
+					cd /var/www/html
+					echo "AmazonWebservices" > index.html
+					service httpd start
+				  chkconfig httpd on
+•	Create Security Group
+•	Enable the SSH Port to anywhere as source
+•	Enable the HTTP Port to anywhere as source
+•	Launch the Instance & Create a new Key Pair
+
+EC2 – Private Subnet
+--------------------
+•	Create One More Linux EC2 Machine in Private Subnet
+•	Select Our VPC & Private Subnet
+•	Create Security Group
+•	Select Type as MYSQL/Aurora & Source as Custom
+•	Enter Port Number of Public Subnet
+•	Launch the Instance
+•	Create a new Key Pair
+
+
+
+
+
+
+
