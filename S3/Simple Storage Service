@@ -1,0 +1,76 @@
+Simple Storage Service
+-----------------------
+•	S3 is a secure, durable, and highly scalable object storage. 
+•	S3 is easy to use, with a simple web service interface to store and retrieve any amount of data from anywhere on the web. 
+•	This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as websites, mobile applications, 
+  backup and restore, archive, enterprise applications, and big data analytics.
+•	It is a global service
+•	Low latency and high throughput performance
+•	It is a Safe place to store your files
+•	It is object-based storage
+•	Durability: AWS claims Amazon S3 to have a 99.999999999% of durability. This means the possibility of losing your data stored on S3 is one in a billion.
+•	A single Amazon S3 object can store a maximum of 5 terabytes. 
+•	The total volume that an s3 bucket can store is unlimited. If an object size is greater than 5 gigabytes, you should consider multipart upload.
+•	S3 Bucket Names must be unique globally.
+•	Lifecycle Management
+•	Versioning
+•	Encryption
+•	Secure Your data using Access Control lists & Bucket Policy
+•	Bucket ownership is not transferable to another account.
+•	When we create a bucket, we choose its name and the AWS Region to create it in. 
+•	After we create a bucket, we can't change its name or Region.
+•	By default, we can create up to 100 buckets in each of our AW’S accounts. 
+•	If we need additional buckets, you can increase our account bucket limit to a maximum of 1,000 buckets by submitting a service limit increase. 
+•	There is no difference in performance whether you use many buckets or just a few. (Note: Search Service Quotas in AWS)
+
+•	Storage Tiers: AWS S3 prices per GB-month of storage, and pricing varies according to the storage tier you select. The AWS S3 Standard tier provides instant access with 
+  low data retrieval costs, but a relatively high cost per GB. There are lower cost tiers that offer lower cost per GB, but higher cost of data retrieval or delayed data 
+  retrieval.
+
+•	Cost per requests: AWS S3 has a cost per 1,000 requests, depending on the request type.
+
+•	Data Transfer: There are extra charges for data transfer from AWS S3 to the Internet, or to certain AWS regions.
+
+•	Management and analytics: AWS S3 charges extra for automating the data lifecycle and moving data automatically to the most optimal storage tiers.
+
+•	Replication: if you set up replication in AWS S3, data transfer and operations performed during replication are charged like regular AWS S3 operations.
+
+Bucket Creation:
+•	Amazon S3 Allows people to store objects (Files) in the
+“buckets” (Directories)
+•	Buckets must have globally unique names
+•	Buckets are defined at the region level
+•	Naming Convention
+•	No Uppercase
+•	No Underscore
+•	3 – 63 Characters long
+•	Not an IP Address (224.245.278.135)
+•	Must start with a lowercase letter or number
+•	Click on Create Bucket
+•	Enter the bucket name
+•	Select the region
+•	Select ACLs Enabled
+•	Uncheck the block all public access
+•	Check the acknowledge
+•	Click on Create bucket
+•	Click on the name of the bucket
+•	Click on Upload
+•	Click on Add files
+•	Select the file which we want to upload in our S3 bucket
+•	Click on permissions
+•	Select grant public read access
+•	Click on Upload
+•	Click on the name of the object
+•	Go to the properties tab
+•	Copy the object URL
+•	Paste in the browser
+•	Change permission of the object
+•	Click on the name of the object
+•	Go to Permission tab
+•	Click on Edit
+•	Uncheck read access from public access
+•	Click on save changes
+•	Paste the object URL in browser
+
+
+
