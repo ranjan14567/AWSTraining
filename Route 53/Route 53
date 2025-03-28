@@ -1,0 +1,8 @@
+Route 53
+---------
+AWS Route 53 is a scalable DNS service for domain registration, traffic routing, and health checking capabilities.
+
+DNS or Doamin Name System, is the internet service that translates human-friendly domain likes www.example.com into machine readable IP addresses
+
+Default port for DNS service is 53
+
