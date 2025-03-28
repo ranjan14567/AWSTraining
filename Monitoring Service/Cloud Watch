@@ -1,0 +1,30 @@
+Cloud Watch
+-----------
+•	Amazon Web Services (AWS) monitoring is a set of practices we can use to verify the security and performance of our AWS resources and data. 
+•	These practices rely on various tools and services to collect, analyze, and present data insights.
+
+Monitoring Service -Types
+•	Basic Monitoring
+•	Detailed Monitoring
+
+•	Basic Monitoring: It is by default enabled. These metrics will be updated every 5 minutes. It is a free service.
+
+•	Detailed Monitoring: Data is available in one minute. We are charged per metric that is sent to CloudWatch.
+
+Lab:
+•	Create an EC2 Machine
+•	Go to the Monitoring Tab
+•	We are not able to see the graph because it will take 5 minutes to update.
+•	To enable detailed monitoring click on manage detailed monitoring.
+•	Check enable & click on save
+•	Note: While Practicing don’t check the box
+•	We are getting all these matrics from the Cloud watch service.
+
+•	Go to Cloud Watch
+•	Click on Metrics
+•	Click on All Metrics
+•	Click on EC2
+•	Click on per instance metrics
+•	Search for our instance
+•	We can select the metric name & see more details about the graph.
+
