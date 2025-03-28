@@ -1,0 +1,10 @@
+Cloud Trail
+-----------
+•	AWS Cloud Trail is an AWS service that helps us enable governance, compliance, and operational and risk auditing of our AWS account. 
+•	Actions taken by a user, role, or AWS service are recorded as events in Cloud Trail. 
+•	All the activities can be tracked by the user using a cloud trail. By default, only the root user can see the event history. 
+•	If the IAM user wants to see the event history we need to attach the role (Cloud Trail) to the IAM User
+
+•	Go to Cloud Trail
+•	Click on Event History
+•	Download Events
