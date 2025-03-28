@@ -1,0 +1,25 @@
+Domain Name System-DNS
+----------------------
+Application Layer Protocol
+
+It translate human-readable domain names [www.amazon.com] into machine-readable IP address [10.1.5.5]
+
+Recursive Resolver managed by the ISP-Internet Service Provider
+  Google DNS 8.8.8.8, provide the Speed, reliability, and Security
+
+Local Cache Memory
+  if cached, the resolver immediately returns the IP(ex,example.com)
+
+If the resolver doesn't have the IP in its cache, it queries a Root DNS server.
+The Root server does not store the IP addresses but direct the query to the appropriate Top-Level Domain (TLD) server based on the domain extension (ex:.com)
+
+The TLD server (ex:.com server) receives the query
+Responds with the loaction of authorative DNS server [Ex:example.com]
+
+Authoritative DNS server for example.com receive the query 
+Which stores the actual IP address associated with the domain name
+Ex:The IP addresses of www.example.com is 127.120.34.5
+
+
+
+
