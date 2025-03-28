@@ -1,0 +1,72 @@
+AWS Config
+-----------
+How you are configure your config file in AWS config or AWS CLI, then execute the AWS CLI command
+
+Config File: It store the non-sensitive information,
+             We do not store Access Key/Secrect Access Key inside the config file
+
+Install the "AWS CLI" in local machine from the AWS official site.
+
+Perform the below tasks
+
+AWS CLI
+-------
+aws --version
+
+aws configure
+  AWS Access Key ID: XXXXXXXXXXX
+  AWS Secret Access Key: XXXXXXXXX
+  Default region name [any AZ]:
+  Default output format [text]:
+
+aws sts get-caller-identity
+
+List of Buckets
+---------------
+aws s3 ls
+
+Create a Bucket
+----------------
+aws s3api create-bucket --bucket test-bucket-hwstack-123 --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1
+
+Delete Bucket
+-------------
+aws s3api delete-bucket --bucket test-bucket-hwstack-123 --region ap-south-1
+
+Root User
+---------
+Security credentials  --> Create access key
+See the "Access key" and "Secret access key"
+
+Delete the access key
+--------------------
+Select the Access Key --> Action --> deactivate --> delete
+
+IAM User:
+---------
+Create user --> user name --> Next --> Next --> Create user --> click user link --> Security credentials --> Create access key --> 
+Select Command Line Interface (CLI) --> Next --> confirmation --> tag --> Create access key
+
+$/c/Users/user/.aws
+$ls
+config  credentials
+$ cat config
+[default]
+region = ap-south-1
+output = text
+
+[profile aws-demo-01]
+region = ap-south-1
+
+$cat credentials
+[default]
+aws_access_key_id = XXXXXXXXXXXX
+aws_secret_access_key = XXXXXXXXXXXXXXXXX
+
+[aws-demo-01]
+aws_access_key_id = XXXXXXXXXXXXXXXX
+aws_secret_access_key = XXXXXXXXXXXXXXX
+
+$aws sts get-caller-identity
+
+$aws sts get-caller-identity --profile aws-demo-01
