@@ -6,3 +6,46 @@ DNS or Doamin Name System, is the internet service that translates human-friendl
 
 Default port for DNS service is 53
 
+We can register our domain name in Route 53, GoDaddy, freenon, Hostinger etc.
+
+In Route 53 we have Six Routing Policies
+  •	Simple Routing Policy
+  •	Latency Routing Policy
+  •	Failover Routing Policy
+  •	Weighted Routing Policy
+  •	Geolocation Routing Policy
+  •	IP-based Policy
+
+Simple Routing Policy
+---------------------
+•	This is the Default Routing Policy. 
+•	This is most commonly used when we have a single region that performs a given function for our domain. 
+•	AWS Route 53 responds to the DNS queries based on the values in the resource record set e.g. IP address in an A record
+
+Weighted Routing Policy
+-----------------------
+•	Weighted Routing Policies let us split our traffic based on different weights assigned. 
+•	For Example 80% of our traffic to go ap-south-1 & 20% of our traffic to go to ap-east-1
+
+Latency-based Routing Policy
+----------------------------
+•	Latency-based routing allows us to route traffic based on the lowest network latency for our end users 
+(i.e. which region will give them the fastest response time)
+
+Failover Routing Policy
+-----------------------
+•	Failover routing policy allows active-passive failover configuration, in which one resource takes all traffic when 
+it’s available and the other resource takes all traffic when the first resource isn’t available. 
+
+Route 53 health-checking agents will monitor each location/endpoint of the application to determine the 
+
+Geolocation Routing Policy
+--------------------------
+•	Geolocation routing lets you choose where your traffic will be sent based on the geographic location of your users. 
+•	Geolocation routing policy allows geographic locations to be specified by continent, country, or state (only in the US)
+
+IP-based Policy
+---------------
+IP-based routing gives you granular control to optimize performance or reduce network costs by uploading your data to 
+Route 53 in the form of user-IP-to-endpoint mappings.
+
