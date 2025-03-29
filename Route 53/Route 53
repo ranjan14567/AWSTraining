@@ -49,3 +49,44 @@ IP-based Policy
 IP-based routing gives you granular control to optimize performance or reduce network costs by uploading your data to 
 Route 53 in the form of user-IP-to-endpoint mappings.
 
+DNS Record Types
+-----------------
+The following are the DNS record types that are supported in Amazon Route53:
+
+A Record ( Address Record ): It is associated with an IPv4 address that is used to point a domain or subdomain to specify 
+a IP address.
+
+AAAA Record ( IPv6 Address Record ): It is similar to A Record type but it is associated with IPv6 address. 
+It associates the name with an IPv6 Address.
+
+CNAME Record ( Canonical Name Record ): It creates an alias to Domain Name that pointing to another domain name. 
+It used for setuping subdomains or pointing multiple domain names to the same server.
+
+MX Record (Mail Exchange Record ): It specifies the mail server responses to receiving email on behalf of a domain. 
+It is used for email routing.
+
+Benefits And Features Of Route53
+---------------------------------
+Highly Reliable: Route53 is built using AWS’s highly available and reliable infrastructure. The distributed nature of the 
+AWS DNS servers helps ensure a consistent ability to route the end-users to the web application.
+
+Scalable: It automatically scales the resources during large traffic and also handles large queries without the user’s 
+intervention.
+
+Easy To Use:  Very user-friendly and easy to configure DNS settings. It can start to answer your DNS queries within minutes. 
+Can be mapped easily to any resource.
+
+Health Check: Route 53 monitors the health of the application. If any failure is detected, 
+it automatically redirects the user to a healthy resource before the customer can identify the problem.
+
+Flexible: You can decide which policy you want to use at given time.
+
+Simple: Using routing types, Route53 helps to manage traffic globally.
+
+Cost-Effective: Payment is done only according to the services used.
+
+Secure: By integrating it with IAM, the access to Amazon Route53 is secured by giving its permissions to only 
+the authorized users.
+
+Mapped With Various AWS Services: It can be used to map domain names to Amazon EC2 instances, 
+S3 buckets, and other AWS resources. 
