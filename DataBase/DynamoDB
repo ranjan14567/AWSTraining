@@ -1,6 +1,8 @@
-•	Amazon DynamoDB is a fast, fully-managed NoSQL database service 
-  that makes it simple and cost- effective to store and retrieve any amount of data, and 
-  serve any level of request traffic.
+Amazon DynamoDB
+---------------
+---> Amazon DynamoDB is a fast, fully-managed NoSQL database service 
+    that makes it simple and cost- effective to store and retrieve any amount of data, and 
+    serve any level of request traffic.
 
 ---> Features of DynamoDB
       •	DynamoDB Has Two Constraints
