@@ -1,1 +1,31 @@
+•	Amazon DynamoDB is a fast, fully-managed NoSQL database service 
+  that makes it simple and cost- effective to store and retrieve any amount of data, and 
+  serve any level of request traffic.
+
+---> Features of DynamoDB
+      •	DynamoDB Has Two Constraints
+      •	Primary Key (Partition Key)
+      •	Composite Primary Key (Sort Key)
+
+---> Create the Data Base:
+      •	Go to DynamoDB
+      •	Click on Create table
+      •	Enter the table Name
+      •	Enter Partition Key
+      •	Enter Sort Key
+      •	Select the default settings
+      •	Click on Create table
+      •	Click on Name
+      •	Click on Explore table items
+      •	Click on Create item
+      •	Enter the value
+      •	Click on Add New Attributes for more columns
+      •	Select type as string
+      •	Enter the attribute name & value
+      •	Click on Create Item
+      •	We can create more items
+
+
+
+
 
