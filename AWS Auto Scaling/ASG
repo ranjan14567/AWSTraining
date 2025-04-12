@@ -9,3 +9,8 @@ It helps scale up when more capacity is needed and scale down during low usage t
   •	Use Scaling Policies: Set rules for scaling based on metrics like CPU usage or request count.
   •	Ensure Availability: Always keep a defined number of instances running to meet application needs.
   •	Schedule Scaling: Pre-configure scaling activities for specific times (e.g., traffic peaks).
+
+Functions:
+      •Distribute Instances: Deploy instances across multiple Availability Zones for high availability.
+      •Integrate with ELB: Attach instances to an Elastic Load Balancer to automatically balance traffic.
+      •Optimize Costs: Scale down during low demand to save on nfrastructure costs.
