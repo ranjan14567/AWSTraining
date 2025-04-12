@@ -1,0 +1,5 @@
+High Availability (HA)
+----------------------
+---> High Availability (HA) means keeping your service up and running with minimal downtime,
+    so it's always accessible to users.
+  	Ex: running resources in multiple AZs
