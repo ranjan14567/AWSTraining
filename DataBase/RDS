@@ -1,1 +1,136 @@
+Relational Database Service (RDS)
+---------------------------------
+----> Amazon RDS supports an array of database engines to store and organize data. 
+      It also helps with relational database management tasks, such as data migration, backup, recovery, and 
+      patching.
+
+---> Advantage of RDS
+      •	Automatic Backups
+      •	Multi-Availability Zone
+      •	Read Replica
+
+---> Backup refers to the copying of physical or databases to a secondary location for preservation 
+     in case of equipment failure.
+
+---> Types of Backups
+      •	Automatic Backup
+      •	Manual Backup
+
+•	Automatic backup is a type of data backup model that requires little or no human intervention in backing up and storing data from a local network/system to a backup facility.
+•	Automating the backup process saves the time and complexity required to manually back up a computer, network, or IT environment.
+•	Automatic backup allows us to recover our database at any point in time within a retention period. The retention period can be between 1 and 35 days.
+•	Default Retention Period is 7 Days
+•	Automatic backups will take a full daily snapshot and will also store transaction logs throughout the day. When we do a recovery, AWS will first choose the most recent daily backup, and then apply transaction logs relevant to that day.
+•	After they are deleted, the automated backups can't be recovered.
+•	Automatic backups are enabled by default
+
+---> Automated backups rule:
+    •	Our DB instance must be in the AVAILABLE state for automated backups to occur. 
+      Automated backups don't occur while your DB instance is in a state other than AVAILABLE, 
+      for example, STORAGE_FULL.
+
+---> Manual Backup:
+    •	Manual Backup is also called Snapshot.
+    •	Database Snapshots are done manually. They are stored even after we delete the original RDS instance, 
+      unlike automatic backups.
+    •	We can have up to 100 manual snapshots per Region.
+
+---> RDS – Multi-Availability Zone:
+        •	Multi AZ allows us to have an exact copy of our production database in another AZ. 
+          AWS handles the replication for us. When our production database is written to, 
+          this write will automatically be synchronized to the standby database.
+        •	In the event of planned database maintenance, database instance failure or an Availability 
+          zone failure, Amazon RDS will automatically failover to the standby so that database operations 
+          can resume quickly without administrative intervention.
+        •	Both Database Servers have the same DNS endpoints
+
+---> RDS – Read Replica:
+        •	Read replica allows us to have a read-only copy of our production database.
+        •	Amazon RDS Read Replicas provide enhanced performance and durability for RDS database 
+          (DB) instances.
+        •	They make it easy to elastically scale out beyond the capacity constraints of a single
+          DB instance for read-heavy database workloads.
+        •	We can have up to 5 read replica copies of any database.
+        •	We can have read replicas of read replicas (But Latency will be there)
+        •	When we create a read replica, RDS gives us a read-only endpoint which is a DNS that resolves 
+          only to our read replica.
+        •	A read replica and the master may be in different availability zones, and even in different 
+          regions.
+
+---> Create Data Base:
+        •	Click on RDS
+        •	Click on Create database
+        •	Select standard create as the database creation method
+        •	Select MySQL (It is open source database & it is given as free trial)
+        •	Select the free tier
+        •	Enter the database name
+        •	Enter Master password & confirm password
+        •	Database instance class
+        •	Go to Storage
+        •	Go to Availability & Durability
+        •	Go to Connectivity
+        •	Select default VPC & Select default subnet group
+        •	Select Yes for Public Access
+        •	Select Create new for Security group & enter the name for security group
+        •	Select availability Zone
+        •	Click on Additional Configuration
+        •	Automatic Backup
+        •	Click on Create database
+---> RDS – Connect with Workbench
+        •	Download MYSQL Workbench: https://dev.mysql.com/downloads/workbench/
+        •	Click on Database identifier
+        •	Note down the endpoint & port number
+        •	Open MySQL Workbench
+        •	Click on Database
+        •	Click on Connect to database
+        •	Enter hostname
+        •	Enter username (admin)
+        •	Click on store in vault
+        •	Enter password
+        •	Click on ok
+        •	SQL Query: 
+
+RDS – Create Read Replica
+  Actions --> Create Read Replica
+    •	Click on create read replica
+    •	System will create
+
+RDS – Manual Snapshot
+  Actions --> Take Snapshot
+  •	Click on take snapshot
+  •	Note: While practice don’t click on take snapshot
+    otherwise we will start getting bill.
+
+RDS – Restore Snapshot
+  Select the snapshot --> Actions --> Restore snapshot
+    •	Restore Backup
+    •	Click on Automatic Backup
+      Select the Backup --> Actions --> Restore to point in time
+
+RDS – Enable Multi-Availability Zone
+  •	Select the instance
+  •	Click on Modify
+  •	Go to Availability & Durability
+  •	Select Create a standby instance
+
+RDS – Delete the Database
+  •	Select the Instance
+    Actions --> Delete
+  •	Uncheck to create the final snapshot
+  •	Acknowledge the deletion
+  •	Enter delete me
+  •	Click on Delete
+
+
+
+
+
+
+
+
+
+
+
+
+
 
