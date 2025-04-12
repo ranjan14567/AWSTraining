@@ -1,0 +1,12 @@
+Scalability
+------------
+ ---->Scalability means the ability to grow your system's resources when your application or
+        website gets more traffic or more users.
+
+----> Vertical Scalability (Scaling Up) : Increases the resources/computing power
+      •	Vertical Scalability means adding more power (CPU, RAM) to your existing server.
+      •	Ex: t2.micro to m5.large
+
+----> Horizontal Scalability (Scaling Out)
+    •	Horizontal Scalability means adding more instances (servers) to distribute the load.
+    •	You can add more EC2 instances behind a load balancer
