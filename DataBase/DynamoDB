@@ -27,6 +27,27 @@ Amazon DynamoDB
       •	Click on Create Item
       •	We can create more items
 
+****************************************************************************************************
+****************************************************************************************************
+What is NoSQL?
+NoSQL is a type of database designed to store and manage data in flexible, non-tabular formats, making it ideal for handling large volumes of unstructured data.
+
+Its flexible data model and reliable performance make DynamoDB a great fit for mobile, web, gaming, advertising technology, Internet of Things, and other applications.
+
+DynamoDB Accelerator - DAX 
+• Fully Managed in-memory cache for DynamoDB 
+• DAX offers microsecond latency achieving up to a 10x performance over standard DynamoDB queries.
+• High Availability and Scalability: can be deployed in multiple AZs
+• DAX is only used for and is integrated with DynamoDB, while
+ElastiCache can be used for other databases
+
+-----
+
+• Serverless: No need for server provisioning, software installation, maintenance, or patching.
+• Automatic Scaling: Instantly scales up or down based on demand, with no manual adjustments needed.
+• Zero Downtime: Provides continuous availability without maintenance windows.
+• On-Demand Pricing: Pay only for the read/write requests used, ideal for fluctuating workloads.
+• Idle Cost Savings: Scales down to zero during inactivity, so there’s no cost when tables have no traffic.
 
 
 
