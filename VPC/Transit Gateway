@@ -17,3 +17,16 @@ Disadvantage of Transit Gateway
 --------------------------------
 -->Additional hop introduces some latency.
 -->Extra cost of hourly charge per attachment in addition to data fees.
+
+When should I choose AWS Transit Gateway?
+-----------------------------------------
+Following use cases of AWS Transit Gateway:
+
+Transit Gateway is suitable if you need a scalable network architecture to connect multiple VPCs, 
+on-premises networks, and remote networks in a hub-and-spoke model.
+
+You should choose the Transit Gateway if You need cross-region connectivity. 
+Thus, you can connect VPCs in different regions with Transit Gateway.
+
+You should select Transit Gateway if your cloud infrastructure requires transitive routing. 
+So, you can use it to enable the inter-VPC communication even when they are not directly peered.
