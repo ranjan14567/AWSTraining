@@ -1,0 +1,16 @@
+VPC Peering
+------------
+AWS VPC Peering connection is a networking connection between two VPCs that enables you to route traffic 
+between them privately.
+
+Advantage of VPC peering
+-------------------------
+--> Low cost since you need to pay only for data transfer.
+--> No bandwidth limit.
+
+Disadvantage of VPC peering
+----------------------------
+--> Complex at scale. Each new VPC increases the complexity of the network. 
+    Harder to maintain route tables compared to TGW[Transit Gateway].
+--> No transit routing.
+--> Maximum 125 peering connections per VPC.
