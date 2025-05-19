@@ -30,3 +30,13 @@ Thus, you can connect VPCs in different regions with Transit Gateway.
 
 You should select Transit Gateway if your cloud infrastructure requires transitive routing. 
 So, you can use it to enable the inter-VPC communication even when they are not directly peered.
+
+Cost of AWS Transit Gateway
+---------------------------
+Since it is part of the AWS Service, it follows the cloud-based pricing plan in which the price is charged 
+on an hourly basis. 
+It mainly depends on the number of requests to Transit Gateway per hour and the amount of traffic that 
+flows through AWS Transit Gateway. 
+The pricing of the Transit Gateway depends on the geographical location. 
+More specifically, you can visit the official website at "https://aws.amazon.com/transit-gateway/pricing/" 
+to request the pricing.
