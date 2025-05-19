@@ -40,3 +40,10 @@ flows through AWS Transit Gateway.
 The pricing of the Transit Gateway depends on the geographical location. 
 More specifically, you can visit the official website at "https://aws.amazon.com/transit-gateway/pricing/" 
 to request the pricing.
+
+Use Cases:
+----------
+You need VPC connectivity at scale. Number of VPCs to be connected is higher (~>10) or 
+scale in the future as the business grows.
+You need network-level segmentation. (possible with multiple TGW route tables)
+You need multiple VPCs connectivity to On-premises.
