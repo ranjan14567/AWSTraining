@@ -29,14 +29,6 @@ You need to use VPC Peering if you face challenges in the complex hub-and-spoke 
 Thus, it is useful for the cases in which we just need a straightforward and direct connectivity 
 between two VPCs.
 
-Use Cases
-----------
-Number of VPCs to be connected is lower (~<10).
-You need multiple VPCs’ connectivity to On-premises.
-You want to minimize data transfer costs when significant volumes of data transfer across regions, VPC Peering is cost-effective.
-Need for low latency.
-You need high throughput. Network bandwidth requirement is more than 50 Gbps.
-
 Cost of VPC Peering
 -------------------
 The pricing of the AWS VPC depends on the features and capabilities used by the application. 
@@ -44,3 +36,11 @@ Generally, the pricing depends on various resources such as NAT Gateway Hourly C
 Data Processing.
 Charge, and Data Transfer Charge. 
 You visit the official site at "https://aws.amazon.com/vpc/pricing/" to request a price quote.
+
+Use Cases
+----------
+Number of VPCs to be connected is lower (~<10).
+You need multiple VPCs’ connectivity to On-premises.
+You want to minimize data transfer costs when significant volumes of data transfer across regions, VPC Peering is cost-effective.
+Need for low latency.
+You need high throughput. Network bandwidth requirement is more than 50 Gbps.
