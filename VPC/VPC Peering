@@ -28,3 +28,11 @@ specific VPCs without the need for a centralized hub.
 You need to use VPC Peering if you face challenges in the complex hub-and-spoke model. 
 Thus, it is useful for the cases in which we just need a straightforward and direct connectivity 
 between two VPCs.
+
+Cost of VPC Peering
+-------------------
+The pricing of the AWS VPC depends on the features and capabilities used by the application. 
+Generally, the pricing depends on various resources such as NAT Gateway Hourly Charge, NAT Gateway 
+Data Processing.
+Charge, and Data Transfer Charge. 
+You visit the official site at "https://aws.amazon.com/vpc/pricing/" to request a price quote.
