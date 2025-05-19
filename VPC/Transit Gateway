@@ -1,0 +1,19 @@
+Transit Gateway [TGW]
+---------------------
+AWS Transit Gateway is a fully managed service that connects VPCs and On-Premises networks through a 
+central hub without relying on numerous point-to-point connections or Transit VPC
+
+A single Transit Gateway instance, consolidating and controlling your organization’s entire AWS routing 
+configuration in one place.
+
+Advantage of Transit Gateway
+------------------------------
+-->Simplified management of VPC connections. 
+-->Each spoke VPC only needs to connect to the TGW to gain access to other connected VPCs.
+-->Supports more VPCs compared to VPC peering.
+-->TGW Route Tables per attachment allow for fine-grained routing.
+
+Disadvantage of Transit Gateway
+--------------------------------
+-->Additional hop introduces some latency.
+-->Extra cost of hourly charge per attachment in addition to data fees.
