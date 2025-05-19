@@ -14,3 +14,17 @@ Disadvantage of VPC peering
     Harder to maintain route tables compared to TGW[Transit Gateway].
 --> No transit routing.
 --> Maximum 125 peering connections per VPC.
+
+When should I choose VPC Peering?
+----------------------------------
+Use Case of VPC Peering is appropriate:
+
+VPC Peering is useful for setting up a simple network scenario with a limited number of VPCs. 
+In such cases, the direct connections between pairs of VPCs are sufficient to route the traffic.
+
+Also, you can use VPC Peering if your primary requirement is resource sharing and collaboration between 
+specific VPCs without the need for a centralized hub.
+
+You need to use VPC Peering if you face challenges in the complex hub-and-spoke model. 
+Thus, it is useful for the cases in which we just need a straightforward and direct connectivity 
+between two VPCs.
