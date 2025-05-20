@@ -1,1 +1,58 @@
+CloudFormation
+---------------
+AWS CloudFormation is an Infrastructure as Code (IaC) service that lets you define, provision, and manage AWS resources in a
+declarative, template-based format.
 
+-->"Consistency: Define infrastructure in code"
+-->"Automation: Reduce manual work"
+-->"Repeatable: Replicate environments easily"
+
+Infrastructure as Code (IaC) Tool: Automates the creation, management, and updating of AWS infrastructure.
+
+Declarative Language: Users define desired end states for resources, and CloudFormation handles provisioning.
+
+Template-Based: Uses YAML or JSON templates to specify AWS resources and configurations.
+
+AWS Native: Exclusively supports AWS resources, fully integrated with AWS services.
+
+State Management: Manages state internally, eliminating the need for separate state files.
+
+Stacks and Stack Sets: Organizes resources in stacks for easier management and allows for multi-account and region
+deployments with stack sets.
+
+Cost-Free Tool: CloudFormation itself is free; you only pay for the AWS resources created.
+
+Drift Detection: Identifies and reports on resource changes made outside of CloudFormation to ensure resources stay aligned with
+the template.
+
+Use Cases:
+----------
+1. Create EC2 Instances with Security Groups and Elastic IPs
+
+2. Provision S3 Buckets with HTTP Endpoints
+
+3. Set Up VPCs with Subnets and Route Tables
+
+4. Create RDS Databases with Automatic Backups
+
+5. Deploy Lambda Functions with API Gateway Integrations
+
+6.Set Up Elastic Load Balancers and Auto Scaling for Web Applications
+
+7. Deploy IAM Roles, Policies, and User Access Management
+
+Syntax:
+aws cloudformation create-stack --stack-name MyStackName --template-body file://path/to/template.yaml
+
+---
+
+Resources:
+
+  SimpleEC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      InstanceType: t3.micro
+      ImageId: XXXXXXXXXXXXXX
+      Tags:
+        - Key: Name
+          Value: MySimpleInstance
