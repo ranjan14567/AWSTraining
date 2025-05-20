@@ -1,0 +1,47 @@
+AWS Systems Manager
+--------------------
+AWS Systems Manager helps you centrally view, manage, and operate nodes at scale in AWS, on-premises, and multicloud environments. 
+With the launch of a unified console experience, Systems Manager consolidates various tools to help you complete common node tasks across AWS accounts and AWS Regions.
+
+To use Systems Manager, nodes must be managed, which means SSM Agent is installed on the machine and the agent can communicate with the Systems Manager service. 
+To help you identify why nodes aren't reporting as managed, Systems Manager offers a one-click agent issue diagnosis and remediation runbook that you can 
+configure to run automatically according to a schedule you define. This feature helps identify why nodes can't connect to Systems Manager, 
+including networking misconfigurations. This feature also provides recommended runbooks for remediating networking issues and other problems preventing nodes 
+from being configured as managed nodes.
+
+The unified console experience also includes a dashboard that provides a high-level overview of your nodes. 
+You can drill down for more specific node insights such as which nodes are running outdated operating system (OS) software. 
+You can also use filters for granular views based on instance metadata like OSs and OS versions, AWS Regions, AWS accounts, and SSM Agent versions. 
+These filters help you retrieve relevant information at a specific account level or application level across your entire organization.
+
+Benefits of Systems Manager include the following:
+---------------------------------------------------
+Enhance visibility across your entire infrastructure
+
+Systems Manager provides a centralized view of nodes across your organization's accounts and Regions. 
+Quickly access instance information such as ID, name, OS details, and installed agents. 
+Use Amazon Q Developer to query instance metadata using natural language, helping you identify issues and take action faster.
+
+Boost operational efficiency with automation
+
+Automate common operational tasks and reduce time and effort required to maintain your systems. 
+Systems Manager provides safe and secure remote management of your nodes at scale without logging into your servers. 
+You no longer need to use bastion hosts, SSH, or remote PowerShell. 
+Systems Manager also provides a simple way of automating common administrative tasks across groups of nodes such as registry edits, user management, 
+and software and patch installations.
+
+Simplify node management at scale in any environment
+
+Systems Manager helps you manage nodes across AWS, on-premises, and multicloud environments. Schedule automated diagnoses to identify SSM Agent issues and 
+remediate them with one-click runbooks. After your nodes are configured as managed nodes, you can execute critical operational tasks such as applying security patches, 
+initiating logged sessions, and running commands remotely.
+
+Who should use Systems Manager?
+--------------------------------
+Systems Manager is used by IT operations managers and operators, DevOps engineers, security and compliance managers, and IT directors and CIOs. Broadly speaking, 
+Systems Manager is appropriate for the following:
+
+  Organizations that want to improve the management and security of their nodes at scale.
+  Organizations that want to increase visibility and operational agility when managing their infrastructure.
+  Organizations that want to increase operational efficiency at scale.
+
