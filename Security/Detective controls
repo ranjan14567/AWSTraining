@@ -1,0 +1,10 @@
+Detective controls
+-------------------
+Detective controls are security controls that are designed to detect, log, and alert after an event has occurred. 
+Detective controls are a foundational part of governance frameworks. 
+These guardrails are a second line of defense, notifying you of security issues that bypassed the preventative controls.
+
+For example, you might apply a detective control that detects and notifies you if an Amazon Simple Storage Service (Amazon S3) bucket becomes publicly accessible. 
+While you might have preventative controls in place that disable public access to S3 buckets at the account level and then disable access through SCPs, 
+a threat actor can circumvent these preventative controls by logging in as an administrative user. 
+In these situations, a detective control can alert you to the misconfiguration and potential threat.
