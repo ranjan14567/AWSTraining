@@ -1,0 +1,35 @@
+Network Boundaries
+-------------------
+Network boundaries are the limits that define where a network begins and ends.
+
+Network boundaries are also used to protect the network from unauthorized access and malicious attacks.
+
+Network boundaries are important for organizations because they help to secure their networks from external threats.
+
+Without network boundaries, malicious attackers could gain access to sensitive data or disrupt network operations. Network boundaries can be physical or virtual.
+
+This ensures that only authorized users are able to access the network and use its services.
+
+Once the network boundaries have been created, they can be used to protect the network from unauthorized access and malicious activity.
+
+For example, a network boundary can be used to prevent unauthorized devices from accessing the network by blocking their IP addresses.
+
+For example, an ACL can be used to block traffic from certain websites or IP addresses. 
+This can help prevent malicious activity from entering the network and ensure that the network runs efficiently.
+
+Types of Network Boundaries
+----------------------------
+There are several types of network boundaries that can be used to secure an organization’s network.
+
+Firewall: A firewall is a type of network boundary that is used to protect a network from external threats. 
+It works by monitoring incoming and outgoing traffic and blocking malicious traffic from entering the network.
+
+Access Control Lists (ACLs): ACLs are used to control access to the network. They are used to specify which devices and services can access the network and 
+which are not allowed.
+
+Network Address Translation (NAT): NAT is used to hide the IP addresses of devices on the network. 
+This helps protect the network from malicious attacks and unauthorized access.
+
+Virtual Private Networks (VPNs): VPNs are used to create secure tunnels between two networks. 
+This allows users to access the network remotely while their traffic is encrypted.
+
