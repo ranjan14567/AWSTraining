@@ -1,1 +1,12 @@
+What is AWS Cloudfront?
+-----------------------
+AWS CloudFront is a Content Delivery Network (CDN) that speeds up the delivery of web content to users by
+caching it at servers (edge locations) close to them, improving load times and performance globally.
 
+I want to serve my website Globally with low latency
+
+AWS CloudFront primarily caches static content like images, CSS, JavaScript, and videos. 
+It can also cache dynamic content (e.g., HTML or API responses) if configured with caching policies and headers. 
+
+By default, sensitive or user-specific data and backend logic are not cached. 
+Cache behavior is controlled via TTLs, cache behaviors, and origin headers.
