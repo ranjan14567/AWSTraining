@@ -1,0 +1,23 @@
+Frequently Asked Questions
+---------------------------
+What is the difference between efficiency and performance in the cloud?
+Cloud efficiency refers to the ability to use resources optimally, minimizing waste and costs. On the other hand, cloud performance focuses on the speed and responsiveness 
+of your applications and services. While they are related, it is possible to have high performance without efficiency (for example, by over-provisioning resources) or 
+to be efficient without optimal performance. The goal is to achieve a balance between the two.
+
+How can I measure the ROI of performance optimization in AWS?
+To measure the ROI of performance optimization in AWS, consider factors such as cost reduction, improvement in application response times, increase in customer satisfaction, 
+and reduction in downtime. You can use tools like AWS Cost Explorer to compare your expenses before and after optimization, and services like Amazon CloudWatch to measure 
+performance improvements. Additionally, consider the impact on your team's productivity and the ability to innovate more quickly.
+
+What impact does performance optimization have on the scalability of my applications?
+Performance optimization has a direct and significant impact on the scalability of your applications. By optimizing your infrastructure and architecture, 
+you are creating a solid foundation that can handle increases in workload more efficiently. This translates into a better ability to scale horizontally (adding more resources) 
+or vertically (increasing the capacity of existing resources) as needed. Additionally, practices like implementing auto-scaling and using serverless services 
+can dramatically improve your application's ability to adapt to changes in demand automatically and seamlessly.
+
+How often should I review and adjust my optimization strategy in AWS?
+Optimization in AWS should be an ongoing process, not a one-time event. It is recommended to conduct thorough reviews of your optimization strategy at least quarterly. 
+However, you should also continuously monitor your key metrics and be prepared to make more frequent adjustments if necessary. 
+Factors such as significant changes in your workload, launches of new AWS services, or pricing changes may warrant additional reviews. 
+Additionally, consider implementing automated monitoring and optimization tools that can alert you to improvement opportunities in real-time.
