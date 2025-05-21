@@ -1,12 +1,14 @@
 AWS Systems Manager
 --------------------
 AWS Systems Manager helps you centrally view, manage, and operate nodes at scale in AWS, on-premises, and multicloud environments. 
-With the launch of a unified console experience, Systems Manager consolidates various tools to help you complete common node tasks across AWS accounts and AWS Regions.
+With the launch of a unified console experience, Systems Manager consolidates various tools to help you complete common node tasks 
+across AWS accounts and AWS Regions.
 
-To use Systems Manager, nodes must be managed, which means SSM Agent is installed on the machine and the agent can communicate with the Systems Manager service. 
+To use Systems Manager, nodes must be managed, which means SSM (AWS Systems Manager Agent) Agent is installed on the machine and the agent can communicate with the Systems Manager service. 
 To help you identify why nodes aren't reporting as managed, Systems Manager offers a one-click agent issue diagnosis and remediation runbook that you can 
-configure to run automatically according to a schedule you define. This feature helps identify why nodes can't connect to Systems Manager, 
-including networking misconfigurations. This feature also provides recommended runbooks for remediating networking issues and other problems preventing nodes 
+configure to run automatically according to a schedule you define. 
+This feature helps identify why nodes can't connect to Systems Manager, including networking misconfigurations. 
+This feature also provides recommended runbooks for remediating networking issues and other problems preventing nodes 
 from being configured as managed nodes.
 
 The unified console experience also includes a dashboard that provides a high-level overview of your nodes. 
