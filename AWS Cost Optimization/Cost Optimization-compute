@@ -1,0 +1,39 @@
+Cost Optimization-compute
+--------------------------
+AWS Compute Optimizer Identify optimal AWS Compute resources for your workloads
+AWS Compute Optimizer analyzes the utilization of your AWS compute resources. 
+Based on its findings, it generates recommendations for your resources to reduce cost and improve performance.
+
+Pricing
+-------
+There is no additional charge for Compute Optimizer. 
+EC2 instance type and EC2 Auto Scaling group configuration recommendations are available for free. 
+You pay only for the AWS Compute resources needed to run your applications and Amazon CloudWatch monitoring fees.
+
+How it works
+------------
+Compute Optimizer analyzes the current configuration of your AWS compute resources, and their utilization metrics from Amazon CloudWatch over a period of the last 14 days.
+
+It identifies the resources that are optimal and not optimal. Compute Optimizer then offers recommendations for your resources to reduce their cost, 
+improve their performance, or a combination of both.
+
+For select resource types, Compute Optimizer also offers a utilization metric comparison between your current resource and the recommended resource or configuration. 
+This data visualization shows how the recommended resource or configuration would have performed during the look-back period if you had used it.
+
+Benefits and features
+---------------------
+Lower cost
+Take advantage of recommendations in Compute Optimizer to lower the cost of your resources by up to 25%. For example, Compute Optimizer might identify an Amazon EC2 instance 
+as over-provisioned if it used only 10% of its CPU capacity. 
+It might recommend that you replace it with a more cost-effective instance type that will continue to meet the performance requirements of your workload.
+
+Optimize performance
+Some recommendations offered by Compute Optimizer are meant to improve the performance of your resources. For example, Compute Optimizer might identify an EBS volume as not 
+optimized if it continuously reached its maximum IOPS. It might recommend a volume type that offers greater IOPS or throughput to better match the performance requirements 
+of your workload.
+
+Compare price and utilization
+Compute Optimizer lists the current price of your resources, along with the price of the generated recommendations. 
+The console also displays metric utilization graphs for your resources from up to the last 14 days. For select resource types, 
+it also displays projected utilization data for recommended resources or configurations.
+
