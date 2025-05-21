@@ -5,7 +5,7 @@ Cloud efficiency refers to the ability to use resources optimally, minimizing wa
 of your applications and services. While they are related, it is possible to have high performance without efficiency (for example, by over-provisioning resources) or 
 to be efficient without optimal performance. The goal is to achieve a balance between the two.
 
-How can I measure the ROI of performance optimization in AWS?
+How can I measure the ROI (return on investment) of performance optimization in AWS?
 To measure the ROI of performance optimization in AWS, consider factors such as cost reduction, improvement in application response times, increase in customer satisfaction, 
 and reduction in downtime. You can use tools like AWS Cost Explorer to compare your expenses before and after optimization, and services like Amazon CloudWatch to measure 
 performance improvements. Additionally, consider the impact on your team's productivity and the ability to innovate more quickly.
