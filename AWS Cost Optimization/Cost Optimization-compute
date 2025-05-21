@@ -36,4 +36,3 @@ Compare price and utilization
 Compute Optimizer lists the current price of your resources, along with the price of the generated recommendations. 
 The console also displays metric utilization graphs for your resources from up to the last 14 days. For select resource types, 
 it also displays projected utilization data for recommended resources or configurations.
-
