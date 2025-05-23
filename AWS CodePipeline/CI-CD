@@ -1,0 +1,5 @@
+AWS Provides CI/CD (Continuous Integration/Continuous Deployment) services that enables the developers to automate and streamline 
+their software delivery process.
+
+AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy are the key services involed in achieving CI/CD on AWS platform.
+
