@@ -4,3 +4,10 @@ You'll learn how to set up a Git repository in CodeCommit, collaborate with team
 codebase.
 
 You'll configure a CodeCommit repository for a team project, including setting up access control and collaboration workflows.
+
+Advantages:
+  1. Managed git
+  2. Scalability
+  3. Reliability
+
+
