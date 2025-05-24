@@ -1,2 +1,28 @@
 Security Groups and Network Access Control Lists
 ------------------------------------------------
+          Security group
+
+Operates at the instance level
+
+Applies to an instance only if it is associated with the instance
+
+Supports allow rules only
+
+Evaluates all rules before deciding whether to allow traffic
+
+Stateful: Return traffic is allowed, regardless of the rules
+
+                VS
+
+             Network ACL
+
+Operates at the subnet level
+
+Applies to all instances deployed in the associated subnet (providing an additional layer of defences if security group rules are too permissive)
+
+Supports allow rules and deny rules
+
+Evaluates rules in order, starting with the lowest numbered rule, when deciding whether to allow traffic
+
+Stateless: Return traffic must be explicitly allowed by the rules
+
